@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca961b9fd92f4684b87a15df904fe752, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  mergeSnapes:
+  - IncomingSnape:
+      Size: 13
+      PositionY: 4
+      PositionX: -4
+      Snape: {fileID: 296411294737282065, guid: 35deb335dec89624c9d479f32abf089f, type: 3}
+    ReceivingSnape:
+      Size: 12
+      PositionY: -3
+      PositionX: 7
+      Snape: {fileID: 1649261805171380653, guid: e981781aba3ca50498b27efde7fa54e7, type: 3}
+  - IncomingSnape:
+      Size: 13
+      PositionY: -1
+      PositionX: -1
+      Snape: {fileID: 296411294737282065, guid: 35deb335dec89624c9d479f32abf089f, type: 3}
+    ReceivingSnape:
+      Size: 12
+      PositionY: 1
+      PositionX: 1
+      Snape: {fileID: 1649261805171380653, guid: e981781aba3ca50498b27efde7fa54e7, type: 3}
+  bonusSnapes:
+    energyCount: 3
+    bonusSnapes:
+    - Size: 10
+      PositionY: -3
+      PositionX: 0
+      Snape: {fileID: 3792810782586252793, guid: 61ee0c86bdaf07949a11368727982346, type: 3}
+    - Size: 10
+      PositionY: 3
+      PositionX: 0
+      Snape: {fileID: 553370830556678921, guid: d081f72fd12c3f84eab8792c56133fe6, type: 3}
